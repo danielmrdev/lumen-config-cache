@@ -1,5 +1,5 @@
 {
-    "name": "orumad/lumen-config-cache",
+    "name": "danielmrdev/lumen-config-cache",
     "description": "Adds the Laravel command `php artisan config:cache` to Lumen",
     "type": "library",
     "keywords": [
@@ -11,12 +11,12 @@
         "laravel-7-package",
         "laravel-8-package"
     ],
-    "homepage": "https://github.com/orumad/lumen-config-cache",
+    "homepage": "https://github.com/danielmrdev/lumen-config-cache",
     "license": "MIT",
     "authors": [
         {
-            "name": "Daniel Muñoz",
-            "email": "dev@danielmunoz.io"
+            "name": "Daniel MR",
+            "email": "dev@danielmr.dev"
         }
     ],
     "require": {
