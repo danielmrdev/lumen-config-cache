@@ -1,5 +1,9 @@
 # lumen-config-cache
 
+> **This repository is archived and no longer maintained.**
+> Lumen itself is no longer recommended for new projects — use Laravel + Octane instead.
+> Feel free to fork if you need to continue using this package.
+
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/orumad/lumen-config-cache.svg?style=flat-square)](https://packagist.org/packages/orumad/lumen-config-cache) [![Total Downloads](https://img.shields.io/packagist/dt/orumad/lumen-config-cache.svg?style=flat-square)](https://packagist.org/packages/orumad/lumen-config-cache) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](https://packagist.org/packages/orumad/lumen-config-cache)
 
 Adds the Laravel artisan command `config:cache` to Lumen.
