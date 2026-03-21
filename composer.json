@@ -3,31 +3,49 @@
     "description": "Adds the Laravel command `php artisan config:cache` to Lumen",
     "type": "library",
     "keywords": [
-        "orumad",
+        "danielmrdev",
         "lumen-config-cache",
         "lumen",
         "laravel",
-        "laravel-6-package",
-        "laravel-7-package",
-        "laravel-8-package"
+        "config",
+        "cache",
+        "lumen-9-package",
+        "lumen-10-package"
     ],
     "homepage": "https://github.com/danielmrdev/lumen-config-cache",
+    "version": "2.0.0",
     "license": "MIT",
     "authors": [
         {
             "name": "Daniel MR",
-            "email": "dev@danielmr.dev"
+            "email": "dev@danielmr.dev",
+            "homepage": "https://danielmr.dev",
+            "role": "Developer"
         }
     ],
     "require": {
-        "php": ">=7.0",
-        "illuminate/contracts": "^6.0 || ^7.0 || ^8.0",
-        "illuminate/support": "^6.0 || ^7.0 || ^8.0"
+        "php": "^8.1",
+        "illuminate/console": "^9.0|^10.0|^11.0|^12.0",
+        "illuminate/contracts": "^9.0|^10.0|^11.0|^12.0",
+        "illuminate/support": "^9.0|^10.0|^11.0|^12.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^7.0|^8.0|^9.0|^10.0",
+        "phpunit/phpunit": "^10.0|^11.0"
     },
     "autoload": {
         "psr-4": {
-            "Orumad\\ConfigCache\\": "src"
+            "Danielmrdev\\ConfigCache\\": "src"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Danielmrdev\\ConfigCache\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
     },
     "config": {
         "sort-packages": true
@@ -35,10 +53,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Orumad\\ConfigCache\\ServiceProviders\\ConfigCacheServiceProvider"
+                "Danielmrdev\\ConfigCache\\ServiceProviders\\ConfigCacheServiceProvider"
             ],
             "aliases": {
-                "ConfigCache": "Orumad\\ConfigCache\\Facades\\ConfigCacheFacade"
+                "ConfigCache": "Danielmrdev\\ConfigCache\\Facades\\ConfigCache"
             }
         }
     }

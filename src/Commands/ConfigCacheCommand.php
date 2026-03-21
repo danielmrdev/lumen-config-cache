@@ -1,9 +1,9 @@
 <?php
 
-namespace Orumad\ConfigCache\Commands;
+namespace Danielmrdev\ConfigCache\Commands;
 
 use Illuminate\Console\Command;
-use Orumad\ConfigCache\Facades\ConfigCache;
+use Danielmrdev\ConfigCache\Facades\ConfigCache;
 
 class ConfigCacheCommand extends Command
 {

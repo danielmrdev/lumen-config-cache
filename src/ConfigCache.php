@@ -1,6 +1,6 @@
 <?php
 
-namespace Orumad\ConfigCache;
+namespace Danielmrdev\ConfigCache;
 
 use Illuminate\Support\Facades\Cache;
 

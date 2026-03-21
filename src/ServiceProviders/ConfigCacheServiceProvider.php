@@ -1,11 +1,11 @@
 <?php
 
-namespace Orumad\ConfigCache\ServiceProviders;
+namespace Danielmrdev\ConfigCache\ServiceProviders;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Arr;
-use Orumad\ConfigCache\ConfigCache;
-use Orumad\ConfigCache\Exceptions\InvalidConfiguration;
+use Danielmrdev\ConfigCache\ConfigCache;
+use Danielmrdev\ConfigCache\Exceptions\InvalidConfiguration;
 
 class ConfigCacheServiceProvider extends ServiceProvider
 {
@@ -25,7 +25,7 @@ class ConfigCacheServiceProvider extends ServiceProvider
         // Register commands
         if ($this->app->runningInConsole()) {
             $this->commands([
-                \Orumad\ConfigCache\Commands\ConfigCacheCommand::class,
+                \Danielmrdev\ConfigCache\Commands\ConfigCacheCommand::class,
             ]);
         }
     }

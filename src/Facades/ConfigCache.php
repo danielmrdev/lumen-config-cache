@@ -1,11 +1,11 @@
 <?php
 
-namespace Orumad\ConfigCache\Facades;
+namespace Danielmrdev\ConfigCache\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Orumad\ConfigCache\ConfigCache
+ * @see \Danielmrdev\ConfigCache\ConfigCache
  */
 class ConfigCache extends Facade
 {

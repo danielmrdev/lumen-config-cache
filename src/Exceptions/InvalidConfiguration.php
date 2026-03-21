@@ -1,16 +1,13 @@
 <?php
 
-namespace Orumad\ConfigCache\Exceptions;
+namespace Danielmrdev\ConfigCache\Exceptions;
 
 use Exception;
 
 class InvalidConfiguration extends Exception
 {
-    // This is an example.
-    // Adapt this to yur config validation checks!
-    public static function versionNotSpecified()
+    public static function configFilesNotSpecified()
     {
-        return new static('EXAMPLE: You must provide a valid version.');
+        return new static('You must specify at least one config file in the config-cache configuration.');
     }
-
 }
